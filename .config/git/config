@@ -1,0 +1,4 @@
+
+[filter "consistent-jupyter-notebook"]
+  clean = "~/.config/git/execute-notebook.sh"
+  smudge = "jupyter nbconvert --stdin --stdout --clear-output"

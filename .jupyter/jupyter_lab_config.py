@@ -2,6 +2,8 @@
 
 c = get_config()
 
+c.ContentsManager.allow_hidden = True
+
 # Remove outputs from notebooks on a device.
 # https://jupyter-notebook.readthedocs.io/en/4.x/extending/savehooks.html#examples
 #
